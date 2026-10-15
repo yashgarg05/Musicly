@@ -95,8 +95,78 @@ nav ul li{
 
 /* Song list */
 
+.songlist-heading{
+    display: flex;
+
+    align-items: center;
+
+    gap: 16px;
+
+    flex-wrap: wrap;
+}
+
+
+.songSearchLabel{
+    display: block;
+
+    margin-bottom: 6px;
+}
+
+
+.songSearch{
+    width: 100%;
+
+    max-width: 500px;
+
+    border: 1px solid #777;
+
+    border-radius: 18px;
+
+    padding: 9px 14px;
+
+    font: inherit;
+}
+
+
+.songlist-toggle{
+    border: 1px solid #1db954;
+
+    border-radius: 18px;
+
+    padding: 7px 13px;
+
+    background-color: transparent;
+
+    color: white;
+
+    font: inherit;
+
+    cursor: pointer;
+}
+
+
+.songlist-toggle:hover,
+.songlist-toggle:focus-visible{
+    background-color: #1db954;
+
+    color: black;
+}
+
+
+.songlist-toggle:focus-visible{
+    outline: 2px solid white;
+
+    outline-offset: 3px;
+}
+
+
 .songItemContainer{
     margin-top: 35px;
+}
+
+
+#songsContainer{
+    margin-top: 16px;
 }
 
 
@@ -120,6 +190,11 @@ nav ul li{
     cursor: pointer;
 
     transition: 0.15s ease;
+}
+
+
+.songItem[hidden]{
+    display: none;
 }
 
 
