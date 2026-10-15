@@ -1,47 +1,47 @@
 const songs = [
     {
         songName: "Pokemon - Hindi",
-        filePath: "songs/pokemon.mp3",
+        filePath: "songs/1.mp3",
         coverPath: "covers/pokemon.jpg"
     },
     {
         songName: "Challa",
-        filePath: "songs/challa.mp3",
+        filePath: "songs/2.mp3",
         coverPath: "covers/challa.jpg"
     },
     {
         songName: "Dil Dhadakne Do",
-        filePath: "songs/dil-dhadakne-do.mp3",
+        filePath: "songs/3.mp3",
         coverPath: "covers/dil-dhadak.jpg"
     },
     {
         songName: "Dil Diyaan Gallan",
-        filePath: "songs/dil-diyan-gallan.mp3",
+        filePath: "songs/4.mp3",
         coverPath: "covers/dil-diyaan-gallan.jpg"
     },
     {
         songName: "Har Kisi Ko",
-        filePath: "songs/har-kisi-ko.mp3",
+        filePath: "songs/5.mp3",
         coverPath: "covers/harkisi.jpg"
     },
     {
         songName: "Kaabil Hoon",
-        filePath: "songs/kaabil-hoon-kya.mp3",
+        filePath: "songs/6.mp3",
         coverPath: "covers/kaabil.jpg"
     },
     {
         songName: "Kar Gayi Chull",
-        filePath: "songs/kar-gayi-chull.mp3",
+        filePath: "songs/7.mp3",
         coverPath: "covers/kargayi.jpg"
     },
     {
         songName: "Kya Mujhe Pyaar Hai",
-        filePath: "songs/kya-muje-pyaar-hai.mp3",
+        filePath: "songs/8.mp3",
         coverPath: "covers/kyamuje.jpg"
     },
     {
         songName: "Mexico",
-        filePath: "songs/mexico.mp3",
+        filePath: "songs/9.mp3",
         coverPath: "covers/mexico.jpg"
     }
 ];

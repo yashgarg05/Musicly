@@ -20,12 +20,12 @@ Clone the repository and open `index.html` in a browser. If your browser restric
 
 ## Add a song
 
-Add the audio file under `songs/` and its cover image under `covers/`. Then add an entry to the `songs` array near the top of `script.js`:
+Add the audio file under `songs/` with a unique numeric filename (for example, `songs/10.mp3`) and its cover image under `covers/`. Then add an entry to the `songs` array near the top of `script.js`:
 
 ```js
 {
     songName: "Song title",
-    filePath: "songs/song-file.mp3",
+    filePath: "songs/10.mp3",
     coverPath: "covers/song-cover.jpg"
 }
 ```
